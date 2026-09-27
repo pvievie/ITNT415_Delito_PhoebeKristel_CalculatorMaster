@@ -26,7 +26,10 @@ def multiply():
         print("Error: Invalid input. Please enter numeric values.")
 
 def divide():
-    print("Division function coming soon.")
+    print("\n--- Division ---")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(f"Result: {num1} / {num2} = {num1 / num2}")
 
 def main():
     while True:
