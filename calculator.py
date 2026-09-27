@@ -6,11 +6,21 @@ def add():
         print(f"Result: {num1} + {num2} = {num1 + num2}")
     except ValueError:
         print("Error: Invalid input. Please enter numeric values.")
+
 def subtract():
-    print("Subtraction function coming soon.")
+    print("\n--- Subtraction ---")
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        print(f"Result: {num1} - {num2} = {num1 - num2}")
+    except ValueError:
+        print("Error: Invalid input. Please enter numeric values.")
 
 def multiply():
-    print("Multiplication function coming soon.")
+    print("\n--- Multiplication ---")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(f"Result: {num1} * {num2} = {num1 * num2}")
 
 def divide():
     print("Division function coming soon.")
